@@ -84,7 +84,7 @@ export default function PortfolioPage() {
               <div className="mt-4 h-px bg-gradient-to-r from-slate-700 via-sky-500/50 to-slate-700" />
 
               <div className="mt-4 space-y-1 text-sm text-slate-300">
-                <p>📍 Kanpur, India</p>
+                <p>📍 Noida, India</p>
                 <p>📧 shaalyadixit10@gmail.com</p>
               </div>
 
