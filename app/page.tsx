@@ -1,21 +1,21 @@
 // app/page.tsx or src/app/page.tsx
-'use client';
+"use client";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 const TAGS = [
-  'Angular 18+',
-  'Next.js',
-  'React',
-  'TypeScript',
-  'Tailwind CSS',
-  'Angular Signals',
-  'NextAuth',
-  'SSR & Hydration',
-  'Highcharts',
-  'Admin CMS',
-  'OTT Platforms',
-  'Banking Dashboards'
+  "Angular 18+",
+  "Next.js",
+  "React",
+  "TypeScript",
+  "Tailwind CSS",
+  "Angular Signals",
+  "NextAuth",
+  "SSR & Hydration",
+  "Highcharts",
+  "Admin CMS",
+  "OTT Platforms",
+  "Banking Dashboards",
 ];
 
 export default function PortfolioPage() {
@@ -27,7 +27,7 @@ export default function PortfolioPage() {
         <section className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div className="max-w-xl space-y-4">
             <p className="text-sm uppercase tracking-[0.2em] text-sky-400">
-               Angular · Next.js · React.js
+              Angular · Next.js · React.js
             </p>
             <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
               Shaalya Dixit
@@ -51,13 +51,6 @@ export default function PortfolioPage() {
                 className="rounded-full border border-slate-600 px-5 py-2 text-sm font-medium text-slate-100 transition hover:border-sky-400 hover:text-sky-200"
               >
                 Contact Me
-              </a>
-              <a
-                href="/ShaalyaDixitResume.pdf"
-                target="_blank"
-                className="text-sm text-slate-300 underline-offset-4 hover:text-sky-200 hover:underline"
-              >
-                Download Resume
               </a>
             </div>
 
@@ -93,7 +86,6 @@ export default function PortfolioPage() {
               <div className="mt-4 space-y-1 text-sm text-slate-300">
                 <p>📍 Kanpur, India</p>
                 <p>📧 shaalyadixit10@gmail.com</p>
-                <p>📱 9305626313</p>
               </div>
 
               <div className="mt-4 flex flex-wrap gap-3 text-sm">
@@ -113,9 +105,6 @@ export default function PortfolioPage() {
                   GitHub
                 </Link>
               </div>
-              <p className="mt-2 text-[11px] text-slate-500">
-                *Update these links with your actual profiles.
-              </p>
             </div>
           </div>
         </section>
@@ -128,9 +117,10 @@ export default function PortfolioPage() {
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-slate-300 sm:text-base">
             I&apos;m a frontend-focused Software Developer with over 4.5 years
             of experience working on OTT platforms, banking admin dashboards,
-            digital invoicing solutions, and CMS-based applications. I specialize
-            in Angular 18 and Next.js, using Signals, SSR, middleware, and
-            NextAuth to build performant and secure applications.
+            digital invoicing solutions, and CMS-based applications. I
+            specialize in Angular 18 and Next.js, using Signals, SSR,
+            middleware, and NextAuth to build performant and secure
+            applications.
           </p>
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-slate-300 sm:text-base">
             I enjoy converting complex business flows into clean, intuitive UIs,
@@ -140,7 +130,10 @@ export default function PortfolioPage() {
         </section>
 
         {/* Experience */}
-        <section id="experience" className="mt-12 border-t border-slate-800 pt-10">
+        <section
+          id="experience"
+          className="mt-12 border-t border-slate-800 pt-10"
+        >
           <h2 className="text-xl font-semibold text-slate-50 sm:text-2xl">
             Experience
           </h2>
@@ -227,7 +220,10 @@ export default function PortfolioPage() {
         </section>
 
         {/* Projects */}
-        <section id="projects" className="mt-12 border-t border-slate-800 pt-10">
+        <section
+          id="projects"
+          className="mt-12 border-t border-slate-800 pt-10"
+        >
           <h2 className="text-xl font-semibold text-slate-50 sm:text-2xl">
             Featured Projects
           </h2>
@@ -244,10 +240,10 @@ export default function PortfolioPage() {
               <p className="mt-3 text-sm text-slate-300">
                 Built a full-featured OTT platform with secure authentication
                 using NextAuth and custom middleware, supporting route
-                protection and session handling. Configured video players with ad
-                tracking and dynamic content rendering, optimized using SSR and
-                caching. Designed and developed the Admin CMS for content, user
-                and subscription management.
+                protection and session handling. Configured video players with
+                ad tracking and dynamic content rendering, optimized using SSR
+                and caching. Designed and developed the Admin CMS for content,
+                user and subscription management.
               </p>
               <ul className="mt-3 space-y-1 text-sm text-slate-300">
                 <li>• Authentication & middleware</li>
@@ -350,9 +346,17 @@ export default function PortfolioPage() {
                 Certifications
               </h2>
               <ul className="mt-4 space-y-2 text-sm text-slate-300">
-                <li>• Mastering Angular (Basics to Advanced with Angular 18) – Udemy</li>
-                <li>• Next.js 14 & React – The Complete Guide (App Router & Auth) – Udemy</li>
-                <li>• HTML, CSS, and JavaScript for Web Developers – Coursera</li>
+                <li>
+                  • Mastering Angular (Basics to Advanced with Angular 18) –
+                  Udemy
+                </li>
+                <li>
+                  • Next.js 14 & React – The Complete Guide (App Router & Auth)
+                  – Udemy
+                </li>
+                <li>
+                  • HTML, CSS, and JavaScript for Web Developers – Coursera
+                </li>
                 <li>• TypeScript for Professionals – Udemy</li>
               </ul>
             </div>
@@ -360,7 +364,10 @@ export default function PortfolioPage() {
         </section>
 
         {/* Contact */}
-        <section id="contact" className="mt-12 border-t border-slate-800 pt-10 pb-12">
+        <section
+          id="contact"
+          className="mt-12 border-t border-slate-800 pt-10 pb-12"
+        >
           <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
             <div>
               <h2 className="text-xl font-semibold text-slate-50 sm:text-2xl">
